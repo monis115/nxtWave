@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=HK+Grotesk:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --product-paragraph-1424-medium: "HK Grotesk";
+  --product-h1-3240-regular: Rubik;
+
+  /* font sizes */
+  --product-paragraph-1424-medium-size: 14px;
+  --product-h6-1216-medium-uppercase-size: 12px;
+  --product-h5-1624-medium-size: 16px;
+  --product-h1-3240-regular-size: 32px;
+
+  /* Colors */
+  --main-blue-default: #0b69ff;
+  --general-white: #fff;
+  --grey-100: #7e858e;
+  --grey-60: rgba(126, 133, 142, 0.6);
+  --general-dark-blue: #171f46;
+  --light-grey-100: #d7dfe9;
+  --avatars-purple-2: #4d00ca;
+  --avatars-purple-1: #d5bbff;
+  --avatars-orange-2: #d98304;
+  --avatars-orange-1: #ffdcbb;
+  --warning-default: #ffb800;
+  --color-gray: #fbfbfb;
+  --avatars-yellow-2: #ca9f00;
+  --avatars-yellow-1: #fff1bb;
+  --success-default: #2dca73;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-11xs: 2px;
+  --br-81xl: 100px;
+  --br-5xs: 8px;
+}
