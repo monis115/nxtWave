@@ -123,7 +123,7 @@
 }
 .label3 {
   top: 0;
-  left: 0;
+  left: 0px;
   font-size: var(--product-h6-1216-medium-uppercase-size);
   letter-spacing: 0.01em;
   line-height: 16px;

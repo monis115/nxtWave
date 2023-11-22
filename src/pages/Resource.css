@@ -1150,3 +1150,41 @@
   color: var(--grey-100);
   font-family: var(--product-paragraph-1424-medium);
 }
+#search4
+{
+  
+  
+  width:440px;
+  height: 30px;
+  padding: 5px;
+  padding-left: 10px;
+}
+#submit
+{
+  margin-left: 10px;
+  height: 45px;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+#userinput1
+{
+  width:320.53px ;
+  height: 20px;
+  border: 1px solid rgb(222, 220, 220);
+  padding: 10px;
+  
+  margin-bottom: 40px;
+  color: darkgray;
+ 
+}
+#dropDown
+{
+  width: 300.53px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  
+  
+
+}

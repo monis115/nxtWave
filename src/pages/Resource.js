@@ -1,4 +1,5 @@
 import "./Resource.css";
+import SearchComponent from "./search";
 
 const Resource = () => {
   return (
@@ -17,7 +18,8 @@ const Resource = () => {
           <div className="search-bar3">
             <div className="field3" />
             <img className="search-16px3" alt="" src="/search--16px.svg" />
-            <div className="search3">Search</div>
+          
+             
           </div>
           <img className="persons-icon3" alt="" src="/persons@2x.png" />
           <div className="bottom-border2" />
@@ -665,9 +667,9 @@ const Resource = () => {
           <img className="logo-icon16" alt="" src="/logo@2x.png" />
         </div>
         <div className="search4">
-          <div className="field4" />
-          <div className="search5">Search</div>
-          <img className="icon" alt="" src="/icon.svg" />
+        
+            <SearchComponent></SearchComponent>
+          
         </div>
       </div>
       <br />

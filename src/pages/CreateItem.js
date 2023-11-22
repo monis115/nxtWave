@@ -1,4 +1,7 @@
 import "./CreateItem.css";
+import UserInputForm from "./userinput1";
+import DropdownComponent from "./userinput3";
+
 
 const CreateItem = () => {
   return (
@@ -23,38 +26,47 @@ const CreateItem = () => {
         src="/nxtwave-tm-coloured-logo-1.svg"
       />
       <div className="name">
-        <div className="bg12" />
-        <div className="text3">iB studio trainees</div>
-        <div className="label3">Item TITLe</div>
+       
+       
+        <div className="label3">
+          <h2> Item Title</h2>
+        <UserInputForm></UserInputForm>
+        </div>
+       
       </div>
       <div className="name1">
-        <div className="bg12" />
-        <div className="text3">www.slack.iB studio trainees.com</div>
-        <div className="label3">LInk</div>
+       
+        
+        <div className="label3">LInk
+        <UserInputForm></UserInputForm>
+
+        
+        </div>
       </div>
       <div className="name2">
-        <div className="bg12" />
-        <div className="text3">www.slack.iB studio trainees.com</div>
-        <div className="label3">icon url</div>
+        
+        {/* <div className="text3">www.slack.iB studio trainees.com</div> */}
+        <div className="label3">icon url
+        <UserInputForm className='text3'></UserInputForm>
+
+        </div>
       </div>
       <div className="input-labeldefault1">
         <div className="bg12" />
         <img className="check-1-16px1" alt="" src="/check-1--16px1.svg" />
         <div className="text6">Death Star Constrction</div>
-        <div className="text3">slack</div>
-        <div className="label3">CATEGORY</div>
+    
+
       </div>
       <div className="select-labeldefault1">
-        <div className="bg12" />
-        <img
-          className="chevron-down-16px1"
-          alt=""
-          src="/chevron-down--16px.svg"
-        />
-        <img className="check-16px1" alt="" src="/check--16px1.svg" />
-        <div className="text7">Death Star Constrction</div>
-        <div className="text3">User</div>
-        <div className="label7">TAG NAME</div>
+        {/* <div className="bg12" /> */}
+        
+        
+    
+        
+        <div className="label3">TAG NAME
+        <DropdownComponent></DropdownComponent>
+        </div>
       </div>
       <div className="item-details">Item Details</div>
       <div className="textarea-labeldefault1">
